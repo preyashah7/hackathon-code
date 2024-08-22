@@ -1,0 +1,117 @@
+:root{
+    --green1: #56bc80;
+    --text-light: #7b7b7b;
+    --text-dark: #37383d;
+    --white: #fff;
+    --medium-bg: #bababa;
+    --light-bg: #edf1f4;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: var(--text-dark);
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 300px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: var(--green1);
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input-group input:hover{
+    border: 2px solid var(--green1);
+}
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--green1);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    /* opacity: 0.7; */
+}
+
+.login-button:hover {
+    background-color: var(--green1);
+    /* opacity: 1; */
+}
+
+.divider {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #000;
+    opacity: 0.85;
+}
+
+.google-login {
+    margin-bottom: 10px;
+}
+
+.google-button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--light-bg);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.google-button:hover {
+    background-color: var(--medium-bg);
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        padding: 15px;
+    }
+
+    .login-button, .google-button {
+        font-size: 14px;
+    }
+}
