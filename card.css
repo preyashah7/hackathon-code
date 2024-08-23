@@ -1,0 +1,72 @@
+/* Basic reset and body styles */
+:root{
+    --green1: #56bc80;
+    --text-light: #7b7b7b;
+    --text-dark: #37383d;
+    --white: #fff;
+    --medium-bg: #bababa;
+    --light-bg: #edf1f4;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color:var(--text-dark)
+}
+.card{
+    height: 30rem;
+    width: 45rem;
+    background-color: var(--white);
+    border: 2px solid var(--green1);
+    border-radius: 10%;
+    box-shadow: 6px 6px 12px var(--text-light);
+}
+
+.circle-icon{
+    height: 7rem;
+    padding-left: 5rem;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4rem;
+}
+
+.circle-icon .icon i{
+    font-size: 2rem;
+}
+.circle{
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+    background-color: var(--medium-bg);
+}
+
+.info{
+    padding: 2rem 5rem;
+}
+
+.info h2{
+    font-size: 40px; 
+    color: black;
+}
+
+.info h4{
+    font-size: 20px;
+}
+.info button{
+    color: var(--white);
+    background-color: var(--green1);
+    font-size: 20px; 
+    border-radius: 50px 50px;
+    text-align: center;
+    height: 3rem;
+    width: 10rem;
+    border: solid 1px var(--green1);
+}
