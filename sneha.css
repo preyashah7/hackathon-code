@@ -1,0 +1,65 @@
+/* Basic reset and body styles */
+:root{
+    --green1: #56bc80;
+    --text-light: #7b7b7b;
+    --text-dark: #37383d;
+    --white: #fff;
+    --medium-bg: #bababa;
+    --light-bg: #edf1f4;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color:var(--text-dark)
+}
+.card{
+    height: 30rem;
+    width: 45rem;
+    background-color: var(--white);
+    border: solid 20px var(--green1);
+    border-radius: 10%;
+}
+
+.circle-icon{
+    height: 7rem;
+    padding-left: 5rem;
+    padding-top: 3rem;
+
+}
+.circle{
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+    /* border: solid 2px black; */
+    background-color: var(--medium-bg);
+}
+h2{
+    padding-top: 1rem;
+    padding-left: 5rem;
+    font-size: 40px; 
+    color: black;
+}
+h4{
+    /* padding-top: 0.3rem; */
+    padding-left: 5rem;
+    font-size: 20px; 
+}
+button{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 5.3rem;
+    color: var(--white);
+    background-color: var(--green1);
+    font-size: 20px; 
+    border-radius: 50px 50px;
+    text-align: center;
+    width: 12rem;
+    border: solid 1px var(--green1);
+}
