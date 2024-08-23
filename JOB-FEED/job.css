@@ -1,0 +1,68 @@
+:root{
+    --green1: #56bc80;
+    --text-light: #7b7b7b;
+    --text-dark: #37383d;
+    --white: #fff;
+    --medium-bg: #bababa;
+    --light-bg: #edf1f4;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+    font-family: "poppins",sans-serif;
+    background-color: black;
+    overflow: hidden;
+    color: var(--white);
+}
+.sidebar{
+    height:100vh;
+    padding-top: 1rem; 
+    width: 20rem;
+    border-radius: 10px;
+    background-color: var(--text-dark);
+}
+.name{
+    display: flex;
+    /* text-align: center; */
+    margin-left: 2rem;
+   
+}
+.logo img{
+    height: 3rem;
+    width: 3rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.name h2{
+    margin-left: 1.2rem;
+    margin-top: 0.3rem;
+    font-size: 30px;
+    font-weight: 900;
+}
+.features{
+
+}
+#feat{
+    height: 3rem;
+    /* flex-direction: column; */
+    background-color: #56bc80;
+    margin: 1rem;
+    /* text-align: center; */
+    border-radius: 5px;
+    /* background-color: #7b7b7b; */
+    padding-left: 2rem;
+    padding-top: 0.8rem;
+    /* margin-top: 1rem; */
+}
+#feat a{
+    font-size: 30px;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 400;
+}
+/* :hover #feat a{
+    color: var(--green1);
+} */
